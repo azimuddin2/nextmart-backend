@@ -1,6 +1,29 @@
-# NextMart - Server
+# NextMart - Backend Development
+
+## MERN Stack Development
 
 NextMart is a robust and scalable backend solution for an e-commerce platform. It handles user authentication, product management, order processing, payment integration, and more. Built with Node.js, Express.js, and MongoDB, this project is designed for high performance and flexibility.
+
+---
+
+### 🛠️ Technologies Used
+- **Node.js** - JavaScript runtime for building scalable applications.
+- **Express.js** - Web framework for building RESTful APIs.
+- **Mongoose** - ODM for MongoDB, handling data modeling and validation.
+- **TypeScript** - Strongly typed JavaScript for better maintainability.
+
+---
+
+## ✅ Project Setup
+1. **Initialize Express Server**
+2. **Set Up Import/Export Module System**
+3. **API Testing with Postman**
+4. **Environment Variables & .gitignore Configuration**
+5. **Create README.md File**
+6. **Follow Modular Pattern in Software Architecture**
+
+## ✅ Database Setup
+- **Connect to MongoDB Atlas** (Cloud-based) or **MongoDB Compass** (Local).
 
 ---
 
@@ -62,7 +85,7 @@ The following `.env` configuration is required to run the project:
 NODE_ENV=development
 
 # Port
-PORT=3001
+PORT=5000
 
 # Database URL
 DB_URL="mongodb+srv://<username>:<password>@cluster0.mongodb.net/<db_name>?retryWrites=true&w=majority"
